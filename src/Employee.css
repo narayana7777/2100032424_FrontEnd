@@ -1,0 +1,145 @@
+/* Employee.css */
+
+.container {
+    background-image: linear-gradient(to left top, #83efb7, #6cd8b4, #5cc1ad, #53aaa2, #509393);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(20, 6, 6);
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+  }
+  
+  .container:hover {
+    transform: scale(1.01); /* Scale up the container on hover */
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    width: 100%;
+    color: black;
+    border-collapse: collapse; /* Collapse table borders */
+    border: 2px solid #121111; /* Add border to the table */
+  }
+  
+  th, td {
+    padding: 8px; /* Add padding to table cells */
+    border: 1px solid #0c0a0a; /* Add border to table cells */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #8eeeb7; /* Alternate row background color */
+  }
+  th.id, td.id {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+  }
+  tr:hover {
+    background-color: #ddd; /* Hover effect for table rows */
+  }     
+  
+  .even {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .odd {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .btn-info {
+    color: black; /* Set the text color to black */
+    margin-left: 10px
+  }
+  
+  /* Home.css */
+  
+  /* Add the Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+/* Apply the Jersey 15 font to the .hcontainer and .content classes */
+/* Apply the Jersey 15 font to the .hcontainer and .content classes */
+/* CSS */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c3e6cb; /* Pale green color */
+    color: #000; /* Text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #a5d6a7; /* Lighter shade of pale green on hover */
+  }
+  .note-message {
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    animation: blink 1s infinite alternate; /* Blink animation */
+    background-color: #010505;
+    color: wheat;
+    margin-bottom: 30px;
+  }
+  
+  @keyframes blink {
+    0%, 50% {
+      color: red; /* Red color */
+    }
+    25% {
+      color: blue; /* Blue color */
+    }
+    75% {
+      color: rgb(242, 236, 236); /* Black color */
+    }
+  }
+.hcontainer {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+  }
+  
+  .content {
+    background-color: #16938c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Jersey 15", sans-serif;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+  }
+  
+  /* Add hover effect to scale up the elements */
+  .hcontainer:hover,
+  .content:hover {
+    transform: scale(1.01); /* Scale up the element on hover */
+  }
+
+  
+  /* App.css */
+  
+  .main {
+    margin-top: 20px;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #2c7950, #2c9875, #26b89e, #1ad8cb, #0cf9fb);
+    background-size: 100% 100%;
+    
+  }
+  
+  

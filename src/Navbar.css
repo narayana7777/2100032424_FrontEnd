@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+nav {
+    
+    background-color: #070908; /* Blue color for the navbar */
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+  }
+  nav:hover {
+    transform: scale(1.1); /* Scale up the nav on hover */
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the list horizontally */
+  }
+  
+  li {
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+    margin-left: 20px;
+  }
+  
+  li:hover {
+    transform: scale(1.3); /* Scale up the list item on hover */
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

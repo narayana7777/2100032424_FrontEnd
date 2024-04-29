@@ -5,7 +5,7 @@ import Home from "./Home";
 import Employee from "./Employee";
 import AddEmployee from "./AddEmp";
 import EditEmployee from "./EditEmp";
-
+import './Employee.css';
 const App = () => {
   return (
     <Router>

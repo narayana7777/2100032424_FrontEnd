@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import employees from "./employees";
+import './Employee.css';
+
 
 const Employee = () => {
   const [employeeData, setEmployeeData] = useState([]);
@@ -52,10 +54,13 @@ const Employee = () => {
           Add Employee
         </Link>
       </div>
+      <span className="note-message">
+    Click on the id number for more details<br></br>
+  </span><br></br>
       <table>
         <thead>
           <tr>
-            <th>Id</th>
+            <th className="id">Id</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Department</th>
@@ -77,6 +82,7 @@ const Employee = () => {
                 <Link
                   to={`/employee/edit/${employee.id}`}
                   className="btn btn-info mr-2"
+                  
                 >
                   Edit
                 </Link>
