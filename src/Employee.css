@@ -7,7 +7,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     color: rgb(20, 6, 6);
     text-align: center;
-    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+    transition: transform 0.5s ease-in-out; /* Add transition for smooth scaling */
   }
   
   .container:hover {
@@ -27,8 +27,11 @@
     color: black;
     border-collapse: collapse; /* Collapse table borders */
     border: 2px solid #121111; /* Add border to the table */
+    transition: transform 0.3s ease-in-out;
   }
-  
+  table:hover{
+    transform: scale(1.01);
+  }
   th, td {
     padding: 8px; /* Add padding to table cells */
     border: 1px solid #0c0a0a; /* Add border to table cells */
@@ -44,7 +47,10 @@
   }
   tr:hover {
     background-color: #ddd; /* Hover effect for table rows */
-  }     
+    
+
+  }   
+
   
   .even {
     background-color: rgba(255, 255, 255, 0.1);

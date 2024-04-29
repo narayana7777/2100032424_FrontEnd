@@ -60,7 +60,7 @@ const Employee = () => {
       <table>
         <thead>
           <tr>
-            <th className="id">Id</th>
+            <th >Id</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Department</th>
@@ -71,7 +71,7 @@ const Employee = () => {
         </thead>
         <tbody>
           {employeeData.map((employee, index) => (
-            <tr key={index} className={index % 2 === 0 ? "even" : "odd"}>
+            <tr key={index} className={index % 2 === 0 ? "even" : "odd"} >
               <td onClick={() => displaydetails(employee)}>{employee.id}</td>
               <td>{employee.FirstName}</td>
               <td>{employee.LastName}</td>

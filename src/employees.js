@@ -17,6 +17,15 @@ const employees = [
     
       Department: "Sales",
     },
+    {
+        id: 3,
+        FirstName: "Narayana",
+        LastName: "Murthy",
+        Gender: "Male",
+        Age: 20,
+      
+        Department: "HR",
+      }
   ];
   
   export default employees;
